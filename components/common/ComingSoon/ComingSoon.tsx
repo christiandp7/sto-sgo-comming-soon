@@ -27,26 +27,26 @@ const ComingSoon = () => {
 				effect="fade"
 				centeredSlides={true}
 				autoplay={{
-					delay: 1500,
+					delay: 1200,
 					disableOnInteraction: false,
 				}}>
-				<SwiperSlide>
-					<StoDgoSprite1 width="100%" height="auto" />
-				</SwiperSlide>
-				<SwiperSlide>
-					<StoDgoSprite2 width="100%" height="auto" />
+				<SwiperSlide className={s.slide}>
+					<StoDgoSprite1 width="auto" height="90vh" />
 				</SwiperSlide>
 				<SwiperSlide className={s.slide}>
-					<StoDgoSprite3 width="100%" height="auto" />
+					<StoDgoSprite2 width="auto" height="90vh" />
 				</SwiperSlide>
 				<SwiperSlide className={s.slide}>
-					<StoDgoSprite4 width="100%" height="auto" />
-				</SwiperSlide>
-				<SwiperSlide>
-					<StoDgoSprite5 width="100%" height="auto" />
+					<StoDgoSprite3 width="auto" height="90vh" />
 				</SwiperSlide>
 				<SwiperSlide className={s.slide}>
-					<StoDgoSprite6 width="100%" height="auto" />
+					<StoDgoSprite4 width="auto" height="90vh" />
+				</SwiperSlide>
+				<SwiperSlide className={s.slide}>
+					<StoDgoSprite5 width="auto" height="90vh" />
+				</SwiperSlide>
+				<SwiperSlide className={s.slide}>
+					<StoDgoSprite6 width="auto" height="90vh" />
 				</SwiperSlide>
 			</Swiper>
 		</main>
