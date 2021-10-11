@@ -1,0 +1,6 @@
+export { default as StoDgoSprite1 } from './StoDgoSprite1'
+export { default as StoDgoSprite2 } from './StoDgoSprite2'
+export { default as StoDgoSprite3 } from './StoDgoSprite3'
+export { default as StoDgoSprite4 } from './StoDgoSprite4'
+export { default as StoDgoSprite5 } from './StoDgoSprite5'
+export { default as StoDgoSprite6 } from './StoDgoSprite6'

@@ -6,3 +6,7 @@
 .logoContainer {
 	@apply px-12;
 }
+
+.slide {
+	@apply bg-white;
+}
