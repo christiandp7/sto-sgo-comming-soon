@@ -1,0 +1,8 @@
+.root {
+	@apply flex justify-center items-center;
+	@apply w-full h-screen;
+}
+
+.logoContainer {
+	@apply px-12;
+}
